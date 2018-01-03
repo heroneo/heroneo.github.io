@@ -1,7 +1,7 @@
 # test #
 ## title1
 ## title2
-{% highlight c linenos %}
+{% highlight c %}
 int main()
 {
     printf("hello,world")
