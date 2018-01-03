@@ -45,7 +45,7 @@ tags: Jekyll on githubPage
     * 如果要新建文章，只需在编辑器里写好markdown格式的文本文件，放到**_posts**文件夹中，通过上面第2步骤commit push到仓库里就可以。但需要注意一点，文件的名称要严格按照Jekyll的示范文件命名: `年-月-日-标题.MARKDOWN`，例如`2018-01-03-how-to-write-a-blog.markdown`,如果名称格式不对Jekyll无法正确转换成html。
 
 ### 注意事项
-*  如果你看下文章（post)会发现，每个文件顶部都有__YAML头信息__。头信息必需在文件的开始部分，并且需要按照 YAML 的格式写在两行三虚线之间。下面是一个基本的例子：
+*  如果你看下文章（post)会发现，每个文件顶部都有**YAML头信息**。头信息必需在文件的开始部分，并且需要按照 YAML 的格式写在两行三虚线之间。下面是一个基本的例子：
 {% highlight YAML %}
 ---  
 layout: post  
@@ -58,7 +58,7 @@ tags: Jekyll
 
 *  **markdown**本身的写法比较简单，语法可参考[地址](https://daringfireball.net/projects/markdown/dingus "markdown-dingus"),也可以搜索其他网络教程。
 
-*  sublime text写markdown是推荐安装两个插件，Markdown Editing和OmniMarkupPreviewer。
+*  用sublime text写markdown,推荐安装两个插件，Markdown Editing和OmniMarkupPreviewer。
 
 
 
