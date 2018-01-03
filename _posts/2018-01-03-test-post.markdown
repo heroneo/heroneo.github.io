@@ -1,4 +1,4 @@
-#test
+#test#
 ##title1
 ##title2
 ,,,c
@@ -17,3 +17,30 @@ int main()
 > 
 > * You can quote a list.
 > * Etc.
+
+
+*   Abacus
+    * answer
+*   Bubbles
+    1.  bunk
+    2.  bupkis
+        * BELITTLER
+    3. burper
+*   Cunning
+
+
+*italic*   **bold**
+_italic_   __bold__
+
+# Header 1 #
+
+## Header 2 ##
+
+###### Header 6
+
+
+Header 1
+========
+
+Header 2
+--------
