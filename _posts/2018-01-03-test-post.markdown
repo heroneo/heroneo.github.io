@@ -1,12 +1,12 @@
-#test#
-##title1
-##title2
-,,,c
+# test #
+## title1
+## title2
+{% highlight c linenos %}
 int main()
 {
     printf("hello,world")
 }
-,,,
+{% endhighlight %}
 
 > Email-style angle brackets
 > are used for blockquotes.
