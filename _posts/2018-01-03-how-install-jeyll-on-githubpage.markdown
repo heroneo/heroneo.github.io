@@ -31,13 +31,13 @@ tags: Jekyll on githubPage
     * 登录后新建个人主页的仓库。  
       _这里要注意的是仓库名称，比如你的帐号如果是john，那么仓库名称应该是：john.github.io_  
       ![新建个人主页仓库](http://img.blog.csdn.net/20160617152346289 "新建仓库")  
-         _本图为引用自网络，[原图片地址](http://blog.csdn.net/yanzhenjie1003/article/details/51703370 "图片出处地址")_
+         _本图为引用自网络，[原图片地址](http://blog.csdn.net/yanzhenjie1003/article/details/51703370 "图片出处地址")_  
 
 2. __将Jekyll添加到个人主页仓库__      
     * 使用Github Desktop将仓库clone到本地    
     ![clone到本地](https://wx4.sinaimg.cn/mw1024/6587fba0gy1fn3gmvftpwj20bz05vt99.jpg "clone")  
     * 因为Github Page原生支持Jekyll，我们找一个喜欢的Jekyll主题模版程序直接用。这里用了[喵神](http://www.onevcat.com/#blog "onevcat")共享的[Vno - Jekyll](https://github.com/onevcat/vno-jekyll "Vno-Jekyll")。 把主题文件commit push到我们刚才新建的仓库，把文件放入本地库，然后使用  
-     ![new repository](https://wx3.sinaimg.cn/mw1024/6587fba0gy1fn3h9l2rrij20qo0icdh0.jpg "newRepository")  
+     ![new repository](https://wx3.sinaimg.cn/mw1024/6587fba0gy1fn3h9l2rrij20qo0icdh0.jpg "newRepository")   
     * 根据需求修改配置文件`_config.yml`。里面的参数意思可以直接查看[Jekyll网站](https://www.jekyll.com.cn "Jekyll中文网站")的说明或自己摸索。
 
 3. __访问和更新__
@@ -46,17 +46,22 @@ tags: Jekyll on githubPage
 
 #### 注意事项
 *  如果你看下文章（post)会发现，每个文件顶部都有__YAML头信息__。头信息必需在文件的开始部分，并且需要按照 YAML 的格式写在两行三虚线之间。下面是一个基本的例子：
+{% highlight YAML %}
 `---  
 layout: post  
 title: Blogging Like a Hacker  
 category:  技术  
 tags: Jekyll  
----`  
+---` 
+{% endhighlight %} 
 基本上每篇文章复制过来改下title等信息即可，想要进一步了解请移步[官方文档](https://www.jekyll.com.cn/docs/frontmatter/ "Jeykll")
 
 *  __markdown__本身的写法比较简单，语法可参考[地址](https://daringfireball.net/projects/markdown/dingus "markdown-dingus"),也可以搜索其他网络教程。
 
-
+`int c = 0. 
+int main{   
+    print("lwef ,c")
+}`
 
 
 
