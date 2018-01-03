@@ -56,7 +56,7 @@ tags: Jekyll
 {% endhighlight %} 
 基本上每篇文章复制过来改下title等信息即可，想要进一步了解请移步[官方文档](https://www.jekyll.com.cn/docs/frontmatter/ "Jeykll")
 
-*  __markdown__本身的写法比较简单，语法可参考[地址](https://daringfireball.net/projects/markdown/dingus "markdown-dingus"),也可以搜索其他网络教程。
+*  **markdown**本身的写法比较简单，语法可参考[地址](https://daringfireball.net/projects/markdown/dingus "markdown-dingus"),也可以搜索其他网络教程。
 
 
 
