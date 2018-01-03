@@ -34,3 +34,9 @@ tags: english 学习笔记
 <code> int a = 100;
 printf("a")
 </code>
+
+` int a = 100;
+printf("a") `
+
+`int a = 100;
+printf("a")`
