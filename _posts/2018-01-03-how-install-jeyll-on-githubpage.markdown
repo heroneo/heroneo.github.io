@@ -47,24 +47,16 @@ tags: Jekyll on githubPage
 #### 注意事项
 *  如果你看下文章（post)会发现，每个文件顶部都有__YAML头信息__。头信息必需在文件的开始部分，并且需要按照 YAML 的格式写在两行三虚线之间。下面是一个基本的例子：
 {% highlight YAML %}
-`---  
+---  
 layout: post  
 title: Blogging Like a Hacker  
 category:  技术  
 tags: Jekyll  
----` 
+---
 {% endhighlight %} 
 基本上每篇文章复制过来改下title等信息即可，想要进一步了解请移步[官方文档](https://www.jekyll.com.cn/docs/frontmatter/ "Jeykll")
 
 *  __markdown__本身的写法比较简单，语法可参考[地址](https://daringfireball.net/projects/markdown/dingus "markdown-dingus"),也可以搜索其他网络教程。
-
-`int c = 0. 
-int main{   
-    print("lwef ,c")
-}`
-
-
-
 
 
 
