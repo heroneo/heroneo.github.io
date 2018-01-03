@@ -6,11 +6,11 @@ category:  tech
 tags: Jekyll on githubPage
 ---
 
-#### 前言
-目前网上（尤其是在github上）的博客主要以技术博客为主，但作为记录和反思自己想法的一种有效手段，每天记录输出自己的学习或思考还是很有益处的，推荐每一个人试着去做。本文记录如何在使用Jeyll和github部署自己的博客站点，以及简单的使用Sublime Text + github desktop进行发博文的操作，有同样需求的人可作参考。
+### 前言
+&emsp;&emsp;目前网上（尤其是在github上）的博客主要以技术博客为主，但作为记录和反思自己想法的一种有效手段，每天记录输出自己的学习或思考还是很有益处的，推荐每一个人试着去做。本文记录如何在使用Jeyll和github部署自己的博客站点，以及简单的使用Sublime Text + github desktop进行发博文的操作，有同样需求的人可作参考。
 
 
-#### 准备工作
+### 准备工作
 自建博客站点有几个部分需要准备：
 
 * _博客程序（Jekyll)_
@@ -25,7 +25,7 @@ tags: Jekyll on githubPage
     
     因为Jekyll的博文其实就是文本文件，在github page上可以像管理代码内容一样对其进行操作和管理。你可以使用自己喜欢的编辑器来写文章（鉴于不错的md插件和用户体验,我们这里选择用[Sublime Text](https://www.sublimetext.com "sublimetext官网")编辑器）。用编辑器写好的文章保存为markdown格式文本，然后通过[Github Desktop](https://desktop.github.com "github Desktop")客户端把文本上传到Github Page上（如果乐意你也可以直接用git命令操作），这样就完成了文章的添加与更新。 
 
-#### 操作步骤
+### 操作步骤
  1.  __开通Github Page__  
     * [注册github账号](https://github.com "github首页")  
     * 登录后新建个人主页的仓库。  
@@ -44,7 +44,7 @@ tags: Jekyll on githubPage
     * 现在我们使用Github Page提供的二级域名`https://你的用户名.github.io`就可以访问博客了。  
     * 如果要新建文章，只需在编辑器里写好markdown格式的文本文件，放到**_posts**文件夹中，通过上面第2步骤commit push到仓库里就可以。但需要注意一点，文件的名称要严格按照Jekyll的示范文件命名: `年-月-日-标题.MARKDOWN`，例如`2018-01-03-how-to-write-a-blog.markdown`,如果名称格式不对Jekyll无法正确转换成html。
 
-#### 注意事项
+### 注意事项
 *  如果你看下文章（post)会发现，每个文件顶部都有__YAML头信息__。头信息必需在文件的开始部分，并且需要按照 YAML 的格式写在两行三虚线之间。下面是一个基本的例子：
 {% highlight YAML %}
 ---  
@@ -53,8 +53,8 @@ title: Blogging Like a Hacker
 category:  技术  
 tags: Jekyll  
 ---
-{% endhighlight %} 
-基本上每篇文章复制过来改下title等信息即可，想要进一步了解请移步[官方文档](https://www.jekyll.com.cn/docs/frontmatter/ "Jeykll")
+{% endhighlight %}  
+&emsp;&emsp;基本上每篇文章复制过来改下title等信息即可，想要进一步了解请移步[官方文档](https://www.jekyll.com.cn/docs/frontmatter/ "Jeykll")
 
 *  **markdown**本身的写法比较简单，语法可参考[地址](https://daringfireball.net/projects/markdown/dingus "markdown-dingus"),也可以搜索其他网络教程。
 
