@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 使用Jeyll在github page上部署个人博客 
-date: 2018-01-03 16:00:20.000000000  +09:00
+title: 使用Jeyll在Github Page上部署个人博客 
+date: 2018-01-03 16:41:20.000000000  +09:00
 category:  tech
 tags: Jekyll on githubPage
 ---
@@ -26,18 +26,18 @@ tags: Jekyll on githubPage
     因为Jekyll的博文其实就是文本文件，在github page上可以像管理代码内容一样对其进行操作和管理。你可以使用自己喜欢的编辑器来写文章（鉴于不错的md插件和用户体验,我们这里选择用[Sublime Text](https://www.sublimetext.com "sublimetext官网")编辑器）。用编辑器写好的文章保存为markdown格式文本，然后通过[Github Desktop](https://desktop.github.com "github Desktop")客户端把文本上传到Github Page上（如果乐意你也可以直接用git命令操作），这样就完成了文章的添加与更新。 
 
 #### 操作步骤
- 1.  __开通Github Page__
+ 1.  __开通Github Page__  
     * [注册github账号](https://github.com "github首页")  
     * 登录后新建个人主页的仓库。  
-      _这里要注意的是仓库名称，比如你的帐号如果是john，那么仓库名称应该是：john.github.io_
+      _这里要注意的是仓库名称，比如你的帐号如果是john，那么仓库名称应该是：john.github.io_  
       ![新建个人主页仓库](http://img.blog.csdn.net/20160617152346289 "新建仓库")  
          _本图为引用自网络，[原图片地址](http://blog.csdn.net/yanzhenjie1003/article/details/51703370 "图片出处地址")_
 
 2. __将Jekyll添加到个人主页仓库__      
-    * 使用Github Desktop将仓库clone到本地  
+    * 使用Github Desktop将仓库clone到本地    
     ![clone到本地](https://wx4.sinaimg.cn/mw1024/6587fba0gy1fn3gmvftpwj20bz05vt99.jpg "clone")  
-    * 因为Github Page原生支持Jekyll，我们找一个喜欢的Jekyll主题模版程序直接用。这里用了[喵神](http://www.onevcat.com/#blog "onevcat")共享的[Vno - Jekyll](https://github.com/onevcat/vno-jekyll "Vno-Jekyll")。 把主题文件commit push到我们刚才新建的仓库，把文件放入本地库，然后使用
-     ![test](https://wx3.sinaimg.cn/mw1024/6587fba0gy1fn3h9l2rrij20qo0icdh0.jpg "test")  
+    * 因为Github Page原生支持Jekyll，我们找一个喜欢的Jekyll主题模版程序直接用。这里用了[喵神](http://www.onevcat.com/#blog "onevcat")共享的[Vno - Jekyll](https://github.com/onevcat/vno-jekyll "Vno-Jekyll")。 把主题文件commit push到我们刚才新建的仓库，把文件放入本地库，然后使用  
+     ![new repository](https://wx3.sinaimg.cn/mw1024/6587fba0gy1fn3h9l2rrij20qo0icdh0.jpg "newRepository")  
     * 根据需求修改配置文件`_config.yml`。里面的参数意思可以直接查看[Jekyll网站](https://www.jekyll.com.cn "Jekyll中文网站")的说明或自己摸索。
 
 3. __访问和更新__
