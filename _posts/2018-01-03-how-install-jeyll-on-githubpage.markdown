@@ -58,7 +58,7 @@ tags: Jekyll
 
 *  **markdown**本身的写法比较简单，语法可参考[地址](https://daringfireball.net/projects/markdown/dingus "markdown-dingus"),也可以搜索其他网络教程。
 
-
+*  sublime text写markdown是推荐安装两个插件，Markdown Editing和OmniMarkupPreviewer。
 
 
 
