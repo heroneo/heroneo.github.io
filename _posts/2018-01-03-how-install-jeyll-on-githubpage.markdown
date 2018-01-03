@@ -36,7 +36,7 @@ tags: Jekyll on githubPage
 2. __将Jekyll添加到个人主页仓库__      
     * 使用Github Desktop将仓库clone到本地    
     ![clone到本地](https://wx4.sinaimg.cn/mw1024/6587fba0gy1fn3gmvftpwj20bz05vt99.jpg "clone")  
-    * 因为Github Page原生支持Jekyll，我们找一个喜欢的Jekyll主题模版程序直接用。这里用了[喵神](http://www.onevcat.com/#blog "onevcat")共享的[Vno - Jekyll](https://github.com/onevcat/vno-jekyll "Vno-Jekyll")。 把主题文件commit push到我们刚才新建的仓库，把文件放入本地库，然后使用  
+    * 因为Github Page原生支持Jekyll，我们找一个喜欢的Jekyll主题模版程序直接用。这里用了[喵神](http://www.onevcat.com/#blog "onevcat")共享的[Vno - Jekyll](https://github.com/onevcat/vno-jekyll "Vno-Jekyll")。 把主题文件commit push到我们刚才新建的仓库，把文件放入本地库，然后使用Github Desktop操作。  
      ![new repository](https://wx3.sinaimg.cn/mw1024/6587fba0gy1fn3h9l2rrij20qo0icdh0.jpg "newRepository")   
     * 根据需求修改配置文件`_config.yml`。里面的参数意思可以直接查看[Jekyll网站](https://www.jekyll.com.cn "Jekyll中文网站")的说明或自己摸索。
 
